@@ -1,0 +1,19 @@
+{
+    "region": "zh_CN",
+    "language": "简体中文",
+    "translate": {
+        "title": "Moe Counter!",
+        "info.1": "项目说明：",
+        "info.2": "本项目是基于 <a href=\"https://github.com/journey-ad/Moe-counter\" target=\"_blank\"><code class=\"text-decoration\">Github@journey-ad/Moe-counter</code></a> 制作的PHP + Mysql版本",
+        "info.3": "代码写的很烂，所以目前运行效率低下",
+        "info.4": "优化了一下代码，应该能快一点把（",
+        "info.5": "如何使用：",
+        "info.6": "SVG 地址",
+        "info.7": "Image 标签",
+        "info.8": "Markdown",
+        "info.9": "任何人都可以访问数据 <span style=\"color: #ff4500;\">请不要</span> 输入个人信息",
+        "info.10": "更多主题",
+        "info.11": "只需使用查询参数 <code>theme</code> ，就像: <code>https://moecount.awa.tips/get/@:name?theme=moebooru</code>",
+        "html.lang": "Language"
+    }
+}

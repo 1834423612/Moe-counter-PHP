@@ -1,0 +1,19 @@
+{
+    "region": "en",
+    "language": "English",
+    "translate": {
+        "title": "Moe Counter!",
+        "info.1": "Project description: ",
+        "info.2": "This project is based on <a href=\"https://github.com/journey-ad/Moe-counter\" target=\"_blank\"><code class=\"text-decoration\">Github@journey-ad/Moe-counter</code></a> production of PHP + MySQL version",
+        "info.3": "The code is poorly written, so it is inefficient at present",
+        "info.4": "Optimize the code, it should be faster（",
+        "info.5": "How to use: ",
+        "info.6": "Svg address",
+        "info.7": "Image tag",
+        "info.8": "Markdown",
+        "info.9": "Anyone can access the data, <span style=\"color: #ff4500;\">please do not</span> enter personal information",
+        "info.10": "More Theme",
+        "info.11": "Just use the query parameters <code>theme</code> ，It's like: <code>https://moecount.awa.tips/get/@:name?theme=moebooru</code>",
+        "html.lang": "Language"
+    }
+}

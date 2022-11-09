@@ -67,7 +67,7 @@ $allWidth = $width * $PLACES;
 $outSvg = '<?xml version="1.0" encoding="UTF-8"?><svg width="'.$allWidth.'" height="'.$height.'" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><title>Moe Count</title><g>';
 foreach ($chars as $val)
 {
-    $files = fileToBase64("Theme/".$theme."/$val.gif");
+    $files = fileToBase64($assets."Theme/".$theme."/$val.gif");
     $outSvg .=  '<image x="'.$x.'" y="0" width="'.$width.'" height="'.$height.'" xlink:href="'.$files.'" />'."\n";
     $x += $width;
 }

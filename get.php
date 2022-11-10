@@ -7,7 +7,6 @@ include_once("Class/Tools.class.php");
 $name = $_GET['name'] ? $_GET['name'] : 'demo';  //无名称状态下默认的名称
 $theme = $_GET['theme'] ? $_GET['theme'] : 'rule34';  //默认显示主题
 $x = 0;
-$assets = "https://cdn.jsdelivr.net/gh/1834423612/Moe-counter-PHP@master/";
 
 //设定指定主题图片显示输出大小
 switch ($theme) 
@@ -68,7 +67,7 @@ $allWidth = $width * $PLACES;
 $outSvg = '<?xml version="1.0" encoding="UTF-8"?><svg width="'.$allWidth.'" height="'.$height.'" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><title>Moe Count</title><g>';
 foreach ($chars as $val)
 {
-    $files = $assets."Theme/".$theme."/$val.gif";
+    $files = "Theme/".$theme."/$val.gif";
     $outSvg .=  '<image x="'.$x.'" y="0" width="'.$width.'" height="'.$height.'" xlink:href="'.$files.'" />'."\n";
     $x += $width;
 }
